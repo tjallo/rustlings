@@ -13,9 +13,8 @@
 //
 // No hints this time ;)
 
-
 // Put your function here!
-fn calculate_price_of_apples(apples: i32)->i32 {
+fn calculate_price_of_apples(apples: i32) -> i32 {
     if (apples > 40) {
         return apples;
     }
